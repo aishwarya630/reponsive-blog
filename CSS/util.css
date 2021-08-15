@@ -1,0 +1,25 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ubuntu:wght@700&display=swap');
+
+/* Variables */
+
+:root {
+    --main-bg-color: brown;
+    --font1: 'Roboto', sans-serif;
+    --font2: 'Ubuntu', sans-serif;
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.btn {}

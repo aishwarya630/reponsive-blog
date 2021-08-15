@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    justify-content: space-between;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    font-family: var(--font2);
+}
+
+
+/*Navigation Bar:Left */
+
+.nav-left {
+    font-size: 1vw;
+    display: flex;
+}
+
+
+/*Navigation Bar:Logo */
+
+.nav-left span {
+    font-size: 2vw;
+}
+
+
+/*Navigation Bar:Home About...*/
+
+.nav-left ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0px 80px;
+}
+
+.nav-left ul li {
+    margin: 0px 10px;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: var(--font1);
+}
+
+
+/* Navigation Bar:Search input */
+
+.form-input {
+    padding: 3px 4px;
+    border: 2px solid black;
+    margin: 0px 5px;
+    font-size: 0.8vw;
+    font-family: var(--font1);
+    padding-top: 5px;
+}
+
+.btn {
+    padding: 3px 7px;
+    border: 2px solid;
+    color: black;
+    border-radius: 7px;
+    font-family: var(--font1);
+    cursor: pointer;
+}
+
+.content {
+    height: 95px;
+    background-color: blue;
+}
+
+.footer {
+    height: 50px;
+    background-color: green;
+}
