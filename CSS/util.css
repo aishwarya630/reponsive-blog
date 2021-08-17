@@ -1,68 +1,92 @@
-/* Fonts */
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ubuntu:wght@700&display=swap');
-
-/* Variables */
-
-:root {
-    --main-bg-color: brown;
-    --font1: 'Roboto', sans-serif;
-    --font2: 'Ubuntu', sans-serif;
-}
-
-
-/* Font */
-
-.font-1 {
-    font-family: var(--font1);
-}
-
-.font-2 {
-    font-family: var(--font2);
-}
-
-
-/* Width */
-
-.max-width-1 {
-    max-width: 80vw;
-}
-
-.max-width-2 {
-    max-width: 70vw;
-}
-
-.max-width-3 {
-    max-width: 50vw;
-}
-
-
-/* Margin Auto */
-
-.m-auto {
-    margin: auto;
-}
-
-.form-input {
-    height: 25px;
-    padding: 7px 15px;
-    border: 2px solid black;
-    margin: 0px 12px;
-    font-size: 0.9vw;
-    padding-top: 7px;
-}
-
-.btn {
-    height: 41px;
-    padding: 7px 14px;
-    border: 2px solid;
-    color: black;
-    border-radius: 34px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-}
-
-.btn:hover {
-    color: white;
-    background-color: var(--main-bg-color);
-}
+        /* Fonts */
+        
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ubuntu:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+        /* Variables */
+        
+         :root {
+            --main-bg-color: brown;
+            --font1: 'Roboto', sans-serif;
+            --font2: 'Ubuntu', sans-serif;
+        }
+        /* Font */
+        
+        .font-1 {
+            font-family: var(--font1);
+        }
+        
+        .font-2 {
+            font-family: var(--font2);
+        }
+        
+        .font-3 {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Width */
+        
+        .max-width-1 {
+            max-width: 80vw;
+        }
+        
+        .max-width-2 {
+            max-width: 75vw;
+        }
+        
+        .max-width-3 {
+            max-width: 70vw;
+        }
+        
+        .max-width-4 {
+            max-width: 60vw;
+        }
+        /* Margin Auto */
+        
+        .m-auto {
+            margin: auto;
+        }
+        
+        .my-2 {
+            margin-bottom: 12px;
+            margin-top: 12px;
+        }
+        
+        .form-input {
+            height: 25px;
+            padding: 7px 15px;
+            border: 2px solid black;
+            margin: 0px 12px;
+            font-size: 0.9vw;
+            padding-top: 7px;
+        }
+        
+        .btn {
+            height: 41px;
+            padding: 7px 14px;
+            border: 2px solid;
+            color: black;
+            border-radius: 34px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .btn:hover {
+            color: white;
+            background-color: var(--main-bg-color);
+        }
+        
+        .form-box input,
+        textarea {
+            margin: 12px 28px;
+            border-radius: 6px;
+            padding: 12px 12px;
+            width: 53vw;
+            border: 2px solid var(--main-bg-color);
+        }
+        
+        .form-box textarea {
+            height: 30vh;
+        }
+        
+        .contact-content h2 {
+            padding: 12px;
+        }
