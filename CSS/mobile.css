@@ -1,4 +1,7 @@
 @media screen and (max-width: 1200px) {
+    #sp-header .sp-default-logo {
+        display: block !important;
+    }
     .navbar {
         /* width: 90vw; */
         display: flex;
@@ -6,13 +9,29 @@
         margin-bottom: 137px;
         /* height: 19px; */
     }
+    .desk {
+        display: none;
+    }
+    .mobile {
+        border: 2px solid rgb(160, 151, 151);
+        background-color: black;
+        width: 8vw;
+        padding: 7px 29px;
+        padding-right: 38px;
+        border-radius: 59px;
+        text-align: center;
+        font-size: x-large;
+        display: block;
+        align-self: center;
+    }
+    .l a {
+        text-decoration: none;
+        color: white;
+    }
     .nav-left {
         /* height: 12px; */
         flex-direction: column;
         text-align: center;
-    }
-    .nav-left img {
-        /* width: 41px; */
     }
     .nav-left span {
         margin: -4px 0px;
@@ -24,12 +43,15 @@
         width: 100vw;
     }
     .home-articles h2 {
-        align-self: center;
+        text-align: center;
     }
     .home-article {
         padding: 1px 12px;
         /* text-align: center; */
         flex-direction: column;
+    }
+    .home-article h2 {
+        text-align: center;
     }
     .home-article-content {
         text-align: center;
@@ -42,55 +64,24 @@
         width: 40vw;
         height: 40vw;
     }
+    .form-input {
+        margin: 1px 2px;
+        padding: 1px 5px;
+        height: 9vw;
+        border-radius: 6px;
+        width: 25vw;
+    }
+    .btn {
+        margin: 1px 2px;
+        padding: 1px 5px;
+        height: 8vw;
+        border-radius: 8px;
+        width: 22vw;
+    }
+    .form-input textarea {
+        width: 60vw;
+    }
+    .form-input btn {
+        text-align: center;
+    }
 }
-
-
-/* .content {
-    height: 350px;
-}
-.content-right {
-    display: none;
-}
-.home-article {
-    flex-direction: column;
-}
-.home-article-img {
-    text-align: center;
-}
-.year-box {
-    top: 25px;
-    left: 60vw;
-    font-size: 11px;
-    display: flex;
-}
-.year-box div {
-    padding: 0 3px;
-    margin: 0;
-}
-.home-article img {
-    width: 70vw;
-}
-.form-input {
-    width: 50%;
-}
-.form-box input,
-textarea {
-    width: 66vw;
-}
-.row {
-    flex-direction: column;
-}
-.social {
-    padding: 0;
-}
-.post-img {
-    height: auto;
-}
-.adjust-year {
-    position: static;
-    height: auto;
-    padding: 12px 0px;
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-} */

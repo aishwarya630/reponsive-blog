@@ -16,6 +16,10 @@
     margin-top: 20px;
 }
 
+.mobile {
+    display: none;
+}
+
 
 /*Navigation Bar:Left */
 
