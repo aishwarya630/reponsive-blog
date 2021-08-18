@@ -60,13 +60,15 @@
         }
         
         .btn {
-            height: 41px;
-            padding: 7px 14px;
+            height: 42px;
+            padding: 7px 15px;
             border: 2px solid;
             color: black;
-            border-radius: 34px;
+            border-radius: 8px;
             cursor: pointer;
             transition: all 0.3s ease-in-out;
+            margin: 2px 12px;
+            padding-top: 7px;
         }
         
         .btn:hover {
